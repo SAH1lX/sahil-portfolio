@@ -322,7 +322,7 @@ md:text-3xl
 
       w-full
 
-      bg-[#050816]/95
+     bg-[#050816]
       backdrop-blur-xl
 
       border-b
@@ -337,10 +337,33 @@ md:text-3xl
       gap-6
     "
   >
-    <a href="#home">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+    <a
+  href="#home"
+  className="text-white text-lg font-medium"
+>
+  Home
+</a>
+
+<a
+  href="#projects"
+  className="text-white text-lg font-medium"
+>
+  Projects
+</a>
+
+<a
+  href="#about"
+  className="text-white text-lg font-medium"
+>
+  About
+</a>
+
+<a
+  href="#contact"
+  className="text-white text-lg font-medium"
+>
+  Contact
+</a>
   </div>
 )}
     </nav>

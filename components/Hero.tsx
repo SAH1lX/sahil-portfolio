@@ -51,7 +51,7 @@ export default function Hero() {
   return (
 
     <section
-      onMouseMove={handleMouseMove}
+      
       id="home"
       className="
         relative
@@ -104,20 +104,7 @@ export default function Hero() {
     [background-size:80px_80px]
   "
 />
-{/* NOISE TEXTURE */}
-<div
-  className="
-    absolute
-    inset-0
-    opacity-[0.035]
-    mix-blend-soft-light
-    pointer-events-none
-  "
-  style={{
-    backgroundImage:
-      "url('https://grainy-gradients.vercel.app/noise.svg')",
-  }}
-/>
+
 
 {/* FLOATING PARTICLES */}
 <div className="absolute inset-0 overflow-hidden">
@@ -441,7 +428,7 @@ pb-10
           group-hover:-translate-y-1
         "
       >
-        ↗
+        
       </span>
 
     </a>
@@ -587,11 +574,7 @@ pb-10
 
   {/* CENTER CARD */}
   <motion.div
-  style={{
-  rotateX,
-  rotateY,
-  transformPerspective: 1200,
-}}
+  
     animate={{
       y: [0, -12, 0],
     }}

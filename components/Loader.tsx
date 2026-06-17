@@ -82,7 +82,7 @@ export default function Loader() {
     via-purple-500/20
     to-fuchsia-500/20
 
-    blur-[250px]
+    blur-[120px]
   "
 />
            
@@ -112,7 +112,7 @@ export default function Loader() {
     via-purple-500/15
     to-violet-500/15
 
-    blur-[220px]
+    blur-[100px]
   "
 />
 
