@@ -49,19 +49,18 @@ export default function Hero() {
   };
 
   return (
-
-    <section
-      
-      id="home"
-      className="
-        relative
-        overflow-hidden
-        min-h-screen
-        pt-20
-        bg-[#050816]
-        text-white
-      "
-    >
+<section
+  onMouseMove={handleMouseMove}
+  id="home"
+  className="
+    relative
+    overflow-hidden
+    min-h-screen
+    pt-20
+    bg-[#050816]
+    text-white
+  "
+>
       {/* BACKGROUND */}
       <div className="absolute inset-0 overflow-hidden">
 
@@ -573,28 +572,33 @@ pb-10
 
   {/* CENTER CARD */}
   <motion.div
+  style={{
+    rotateX,
+    rotateY,
+    transformPerspective: 1200,
+  }}
+  animate={{
+    y: [0, -12, 0],
+  }}
+  transition={{
+    repeat: Infinity,
+    duration: 6,
+    ease: "easeInOut",
+  }}
+  className="
+    relative
+    z-20
+    w-[250px]
+    rounded-[32px]
+    border
+    border-white/10
+    bg-white/5
+    backdrop-blur-2xl
+    p-7
+    shadow-[0px_0px_60px_rgba(139,92,246,0.22)]
+  "
+>
   
-    animate={{
-      y: [0, -12, 0],
-    }}
-    transition={{
-      repeat: Infinity,
-      duration: 6,
-      ease: "easeInOut",
-    }}
-    className="
-      relative
-      z-20
-      w-[250px]
-      rounded-[32px]
-      border
-      border-white/10
-      bg-white/5
-      backdrop-blur-2xl
-      p-7
-      shadow-[0px_0px_60px_rgba(139,92,246,0.22)]
-    "
-  >
     {/* GRADIENT BORDER LIGHT */}
 <div
   className="
