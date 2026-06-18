@@ -25,23 +25,18 @@ export default function Loader() {
   }, []);
 
   return (
-    <AnimatePresence>
-
-      {loading && (
-
-        <motion.div
-          initial={{
-            opacity: 1,
-          }}
-          exit={{
-            opacity: 0,
-            scale: 1.12,
-            filter: "blur(60px)",
-          }}
-          transition={{
-            duration: 1.6,
-            ease: [0.22, 1, 0.36, 1],
-          }}
+   <AnimatePresence>
+  {loading && (
+    <motion.div
+      initial={{
+        opacity: 1,
+      }}
+      exit={{
+        opacity: 0,
+      }}
+      transition={{
+        duration: 0.6,
+      }}
           className="
   fixed
   inset-0
