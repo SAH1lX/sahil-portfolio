@@ -28,13 +28,13 @@ export default function Hero() {
   const rotateX = useTransform(
     smoothY,
     [-300, 300],
-    [10, -10]
+    [18, -18]
   );
 
   const rotateY = useTransform(
     smoothX,
     [-300, 300],
-    [-10, 10]
+    [-18, 18]
   );
 
   const handleMouseMove = (
