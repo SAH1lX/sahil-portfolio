@@ -70,20 +70,24 @@ export default function Loader() {
     ease: "easeInOut",
   }}
   className="
-    absolute
+  absolute
 
-    w-[900px]
-    h-[900px]
+  w-[500px]
+  h-[500px]
 
-    rounded-full
+  md:w-[900px]
+  md:h-[900px]
 
-    bg-gradient-to-r
-    from-violet-600/20
-    via-purple-500/20
-    to-fuchsia-500/20
+  rounded-full
 
-    blur-[120px]
-  "
+  bg-gradient-to-r
+  from-violet-600/20
+  via-purple-500/20
+  to-fuchsia-500/20
+
+  blur-[120px]
+  md:blur-[250px]
+"
 />
            
 
@@ -100,20 +104,24 @@ export default function Loader() {
     ease: "easeInOut",
   }}
   className="
-    absolute
+  absolute
 
-    w-[650px]
-    h-[650px]
+  w-[350px]
+  h-[350px]
 
-    rounded-full
+  md:w-[650px]
+  md:h-[650px]
 
-    bg-gradient-to-r
-    from-fuchsia-500/15
-    via-purple-500/15
-    to-violet-500/15
+  rounded-full
 
-    blur-[100px]
-  "
+  bg-gradient-to-r
+  from-fuchsia-500/15
+  via-purple-500/15
+  to-violet-500/15
+
+  blur-[100px]
+  md:blur-[220px]
+"
 />
 
           {/* NOISE TEXTURE */}
