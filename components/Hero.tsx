@@ -167,6 +167,165 @@ export default function Hero() {
 </div>
 
 </div>
+{/* MOBILE HERO */}
+<div className="md:hidden relative z-10 px-6 pt-10">
+
+  <div className="grid grid-cols-2 gap-4 items-center">
+
+    {/* LEFT SIDE */}
+    <div>
+
+      <p
+        className="
+          text-[10px]
+          tracking-[0.3em]
+          text-violet-300
+          mb-4
+        "
+      >
+        AI & CREATIVE DEVELOPER
+      </p>
+
+      <h1
+        className="
+          font-black
+          leading-none
+        "
+      >
+        <span
+          className="
+            block
+            text-5xl
+            text-white
+          "
+        >
+          Sahil
+        </span>
+
+        <span
+          className="
+            block
+            text-5xl
+            bg-gradient-to-r
+            from-violet-400
+            to-fuchsia-400
+            bg-clip-text
+            text-transparent
+          "
+        >
+          Bhatti
+        </span>
+      </h1>
+
+    </div>
+
+    {/* RIGHT SIDE CARD */}
+    <div
+      className="
+        flex
+        justify-center
+      "
+    >
+
+      <div
+        className="
+          w-[170px]
+          rounded-[24px]
+          border
+          border-white/10
+          bg-white/5
+          backdrop-blur-xl
+          p-5
+          shadow-[0px_0px_40px_rgba(139,92,246,0.25)]
+        "
+      >
+
+        <p className="text-[10px] text-white/60 mb-4">
+          AI SYSTEMS
+        </p>
+
+        <h3
+          className="
+            text-xl
+            font-bold
+            leading-tight
+            mb-6
+          "
+        >
+          Building intelligent solutions for the future.
+        </h3>
+
+        <div
+          className="
+            h-2
+            rounded-full
+            bg-white/10
+            overflow-hidden
+          "
+        >
+          <div
+            className="
+              h-full
+              w-[92%]
+              rounded-full
+              bg-gradient-to-r
+              from-violet-400
+              to-fuchsia-400
+            "
+          />
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  {/* DESCRIPTION */}
+  <p
+    className="
+      mt-8
+      text-white/70
+      leading-relaxed
+    "
+  >
+    Building intelligent digital experiences with cinematic interactions,
+    futuristic interfaces and modern creative engineering.
+  </p>
+
+  {/* BUTTONS */}
+  <div className="mt-8 flex flex-col gap-4">
+
+    <a
+      href="#projects"
+      className="
+        py-4
+        rounded-full
+        text-center
+        bg-gradient-to-r
+        from-violet-500
+        to-fuchsia-500
+      "
+    >
+      View Projects
+    </a>
+
+    <a
+      href="#contact"
+      className="
+        py-4
+        rounded-full
+        text-center
+        border
+        border-white/10
+      "
+    >
+      Contact Me
+    </a>
+
+  </div>
+
+</div>
 
       {/* CONTENT */}
       <div
@@ -176,7 +335,8 @@ z-10
 max-w-[1320px]
 mx-auto
 min-h-screen
-grid
+hidden
+md:grid
 md:grid-cols-2
 gap-2
 items-center
