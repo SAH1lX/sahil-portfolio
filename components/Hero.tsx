@@ -441,13 +441,12 @@ pb-10
        {/* RIGHT SIDE */}
 <div
   className="
-    relative
-    hidden
-    lg:flex
-    items-center
-    justify-center
-    h-[720px]
-  "
+  relative
+  flex
+  items-center
+  justify-center
+  h-[720px]
+"
 >
 
  {/* MAIN GLOW */}
