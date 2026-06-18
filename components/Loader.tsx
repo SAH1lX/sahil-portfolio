@@ -61,8 +61,7 @@ export default function Loader() {
           {/* MAIN AMBIENT GLOW */}
         <motion.div
   animate={{
-    scale: [1, 1.2, 1],
-    opacity: [0.2, 0.5, 0.2],
+    opacity: [0.2, 0.4, 0.2],
   }}
   transition={{
     repeat: Infinity,
@@ -94,10 +93,8 @@ export default function Loader() {
           {/* SECONDARY GLOW */}
 <motion.div
   animate={{
-    scale: [1.05, 1.25, 1.05],
-    opacity: [0.12, 0.3, 0.12],
-    rotate: [0, 8, 0],
-  }}
+  opacity: [0.12, 0.25, 0.12],
+}}
   transition={{
     repeat: Infinity,
     duration: 8,
