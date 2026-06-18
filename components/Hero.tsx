@@ -168,7 +168,7 @@ export default function Hero() {
 
 </div>
 {/* MOBILE HERO */}
-<div className="md:hidden relative z-10 px-6 pt-10">
+<div className="md:hidden relative z-10 px-6 pt-8">
 
   <div className="grid grid-cols-2 gap-4 items-center">
 
@@ -195,7 +195,7 @@ export default function Hero() {
         <span
           className="
             block
-            text-5xl
+            text-4xl
             text-white
           "
         >
@@ -205,7 +205,7 @@ export default function Hero() {
         <span
           className="
             block
-            text-5xl
+            text-4xl
             bg-gradient-to-r
             from-violet-400
             to-fuchsia-400
@@ -221,21 +221,27 @@ export default function Hero() {
 
     {/* RIGHT SIDE CARD */}
     <div
-      className="
-        flex
-        justify-center
-      "
-    >
+  className="
+    flex
+    justify-center
+    -mt-8
+  "
+>
+  <div className="relative">
+
+  </div>
+ this  
 
       <div
-        className="
-          w-[170px]
+  className="
+    relative
+    w-[150px]
           rounded-[24px]
           border
           border-white/10
           bg-white/5
           backdrop-blur-xl
-          p-5
+          p-4
           shadow-[0px_0px_40px_rgba(139,92,246,0.25)]
         "
       >
@@ -273,6 +279,35 @@ export default function Hero() {
               to-fuchsia-400
             "
           />
+          <div
+  className="
+    absolute
+    -top-4
+    -left-4
+    w-[120px]
+    h-[120px]
+    rounded-[20px]
+    bg-white/5
+    border
+    border-white/10
+    rotate-[-8deg]
+  "
+/>
+
+<div
+  className="
+    absolute
+    bottom-[-10px]
+    right-[-10px]
+    w-[120px]
+    h-[120px]
+    rounded-[20px]
+    bg-white/5
+    border
+    border-white/10
+    rotate-[8deg]
+  "
+/>
         </div>
 
       </div>
