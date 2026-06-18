@@ -302,7 +302,7 @@ pb-10
 
 </motion.p>
         
-        ↗
+        
      
 
          {/* BUTTONS */}
