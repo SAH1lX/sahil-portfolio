@@ -284,8 +284,8 @@ export default function Hero() {
     absolute
     -top-4
     -left-4
-    w-[120px]
-    h-[120px]
+    w-[90px]
+    h-[90px]
     rounded-[20px]
     bg-white/5
     border
@@ -329,7 +329,7 @@ export default function Hero() {
   </p>
 
   {/* BUTTONS */}
-  <div className="mt-8 flex flex-col gap-4">
+ <div className="mt-14 flex flex-col gap-4">
 
     <a
       href="#projects"
@@ -837,7 +837,7 @@ pb-10
           flex
           items-center
           justify-center
-          text-xl
+          text-lg
         "
       >
         ✦
