@@ -445,7 +445,7 @@ pb-10
   flex
   items-center
   justify-center
-  h-[400px]
+  h-[600px]
 "
 >
 
