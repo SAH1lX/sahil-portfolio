@@ -282,61 +282,91 @@ z-10
 </div>
 
 
-    <p className="text-[10px] text-violet-300 mb-4 tracking-[0.2em]">
+   <p
+  className="
+    text-[10px]
+    text-violet-300
+    tracking-[0.25em]
+    uppercase
+    mb-4
+  "
+>
   AI SYSTEMS
 </p>
 
-<div className="space-y-4">
+<div
+  className="
+    flex
+    items-center
+    justify-between
+    mb-5
+  "
+>
+  <span className="text-2xl">⚡</span>
 
-  <div>
-    <div className="flex justify-between text-[10px] mb-1">
-      <span>Frontend</span>
-      <span>92%</span>
-    </div>
-
-    <div className="h-1.5 bg-white/10 rounded-full overflow-hidden">
-      <div className="h-full w-[92%] rounded-full bg-gradient-to-r from-violet-400 to-fuchsia-400" />
-    </div>
+  <div
+    className="
+      w-8
+      h-8
+      rounded-xl
+      bg-violet-500/20
+      flex
+      items-center
+      justify-center
+      text-sm
+    "
+  >
+    ✦
   </div>
-
-  <div>
-    <div className="flex justify-between text-[10px] mb-1">
-      <span>Motion UI</span>
-      <span>95%</span>
-    </div>
-
-    <div className="h-1.5 bg-white/10 rounded-full overflow-hidden">
-      <div className="h-full w-[95%] rounded-full bg-gradient-to-r from-violet-400 to-fuchsia-400" />
-    </div>
-  </div>
-
-  <div>
-    <div className="flex justify-between text-[10px] mb-1">
-      <span>Full Stack</span>
-      <span>88%</span>
-    </div>
-
-    <div className="h-1.5 bg-white/10 rounded-full overflow-hidden">
-      <div className="h-full w-[88%] rounded-full bg-gradient-to-r from-violet-400 to-fuchsia-400" />
-    </div>
-  </div>
-
 </div>
 
-      <div
-        className="
-          flex
-          justify-between
-          mt-3
-          text-[10px]
-          text-white/60
-        "
-      >
-        <span>AI</span>
-        <span>92%</span>
-      
+<h3
+  className="
+    text-base
+    font-bold
+    leading-tight
+    mb-5
+  "
+>
+  Building
+  intelligent
+  solutions
+  for the
+  future.
+</h3>
 
-    </div>
+<div
+  className="
+    h-2
+    rounded-full
+    bg-white/10
+    overflow-hidden
+  "
+>
+  <div
+    className="
+      h-full
+      w-[92%]
+      rounded-full
+      bg-gradient-to-r
+      from-violet-400
+      to-fuchsia-400
+    "
+  />
+</div>
+
+<div
+  className="
+    flex
+    justify-between
+    mt-3
+    text-[10px]
+    text-white/60
+  "
+>
+  <span>System Intelligence</span>
+  <span>92%</span>
+</div>
 
   </div>
 
