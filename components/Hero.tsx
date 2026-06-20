@@ -177,8 +177,8 @@ export default function Hero() {
 
       <p
         className="
-          text-[10px]
-          tracking-[0.3em]
+          text-[9px]
+          tracking-[0.25em]
           text-violet-300
           mb-4
         "
@@ -230,7 +230,7 @@ export default function Hero() {
   <div className="relative">
 
   </div>
- this  
+  
 
       <div
   className="
@@ -438,15 +438,15 @@ pb-10
               delay: 0.3,
               duration: 1,
             }}
-            className="
-              text-[5rem]
-              sm:text-[6rem]
-              md:text-[7rem]
-              lg:text-[7.5rem]
-              font-black
-              tracking-[-0.07em]
-              leading-[0.88]
-            "
+           className="
+  text-[3.8rem]
+  sm:text-[6rem]
+  md:text-[7rem]
+  lg:text-[7.5rem]
+  font-black
+  tracking-[-0.07em]
+  leading-[0.88]
+"
           >
             Sahil
 
