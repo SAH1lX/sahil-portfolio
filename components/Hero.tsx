@@ -282,90 +282,103 @@ z-10
 </div>
 
 {/* MAIN CARD */}
-   <p
-  className="
-    text-[10px]
-    text-violet-300
-    tracking-[0.25em]
-    uppercase
-    mb-4
-  "
->
-  AI SYSTEMS
-</p>
-
 <div
   className="
-    flex
-    items-center
-    justify-between
-    mb-5
+    relative
+    w-[190px]
+    rounded-[24px]
+    border
+    border-white/10
+    bg-white/5
+    backdrop-blur-xl
+    p-5
+    shadow-[0px_0px_40px_rgba(139,92,246,0.25)]
   "
 >
- 
 
-  <div
+  <p
     className="
-      w-8
-      h-8
-      rounded-xl
-      bg-violet-500/20
-      flex
-      items-center
-      justify-center
-      text-sm
+      text-[10px]
+      text-violet-300
+      tracking-[0.25em]
+      uppercase
+      mb-4
     "
   >
-    ✦
-  </div>
-</div>
+    AI SYSTEMS
+  </p>
 
-<h3
-  className="
-    text-base
-    font-bold
-    leading-tight
-    mb-5
-  "
->
-  Building
-  intelligent
-  solutions
-  for the
-  future.
-</h3>
-
-<div
-  className="
-    h-2
-    rounded-full
-    bg-white/10
-    overflow-hidden
-  "
->
   <div
     className="
-      h-full
-      w-[92%]
-      rounded-full
-      bg-gradient-to-r
-      from-violet-400
-      to-fuchsia-400
+      flex
+      justify-between
+      items-center
+      mb-5
     "
-  />
-</div>
+  >
+    <span className="text-3xl">⚡</span>
 
-<div
-  className="
-    flex
-    justify-between
-    mt-3
-    text-[10px]
-    text-white/60
-  "
->
-  <span>System Intelligence</span>
-  <span>92%</span>
+    <div
+      className="
+        w-8
+        h-8
+        rounded-xl
+        bg-violet-500/20
+        flex
+        items-center
+        justify-center
+      "
+    >
+      ✦
+    </div>
+  </div>
+
+  <h3
+    className="
+      text-[15px]
+      font-bold
+      leading-tight
+      mb-5
+    "
+  >
+    Building intelligent
+    solutions for the
+    future.
+  </h3>
+
+  <div
+    className="
+      h-2
+      rounded-full
+      bg-white/10
+      overflow-hidden
+    "
+  >
+    <div
+      className="
+        h-full
+        w-[92%]
+        rounded-full
+        bg-gradient-to-r
+        from-violet-400
+        to-fuchsia-400
+      "
+    />
+  </div>
+
+  <div
+    className="
+      flex
+      justify-between
+      mt-3
+      text-[10px]
+      text-white/60
+    "
+  >
+    <span>AI Score</span>
+    <span>92%</span>
+  </div>
+
 </div>
 
   </div>
