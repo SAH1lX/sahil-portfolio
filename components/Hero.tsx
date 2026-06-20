@@ -248,7 +248,9 @@ export default function Hero() {
     items-center
     justify-center
 
-    text-2xl
+    text-3xl
+text-violet-300
+z-10
   "
 >
   ⚡
@@ -271,60 +273,55 @@ export default function Hero() {
     items-center
     justify-center
 
-    text-2xl
+    text-3xl
+text-violet-300
+z-10
   "
 >
   ✦
 </div>
-    {/* MAIN CARD */}
-    <div
-      className="
-        relative
-        w-[150px]
-        rounded-[24px]
-        border
-        border-white/10
-        bg-white/5
-        backdrop-blur-xl
-        p-4
-        shadow-[0px_0px_40px_rgba(139,92,246,0.25)]
-      "
-    >
 
-      <p className="text-[10px] text-white/60 mb-4">
-        AI SYSTEMS
-      </p>
 
-      <h3
-        className="
-          text-lg
-          font-bold
-          leading-tight
-          mb-6
-        "
-      >
-        Building intelligent solutions for the future.
-      </h3>
+    <p className="text-[10px] text-violet-300 mb-4 tracking-[0.2em]">
+  AI SYSTEMS
+</p>
 
-      <div
-        className="
-          h-2
-          rounded-full
-          bg-white/10
-          overflow-hidden
-        "
-      >
-        <div
-          className="
-            h-full
-            w-[92%]
-            rounded-full
-            bg-gradient-to-r
-            from-violet-400
-            to-fuchsia-400
-          "
-        />
-      </div>
+<div className="space-y-4">
+
+  <div>
+    <div className="flex justify-between text-[10px] mb-1">
+      <span>Frontend</span>
+      <span>92%</span>
+    </div>
+
+    <div className="h-1.5 bg-white/10 rounded-full overflow-hidden">
+      <div className="h-full w-[92%] rounded-full bg-gradient-to-r from-violet-400 to-fuchsia-400" />
+    </div>
+  </div>
+
+  <div>
+    <div className="flex justify-between text-[10px] mb-1">
+      <span>Motion UI</span>
+      <span>95%</span>
+    </div>
+
+    <div className="h-1.5 bg-white/10 rounded-full overflow-hidden">
+      <div className="h-full w-[95%] rounded-full bg-gradient-to-r from-violet-400 to-fuchsia-400" />
+    </div>
+  </div>
+
+  <div>
+    <div className="flex justify-between text-[10px] mb-1">
+      <span>Full Stack</span>
+      <span>88%</span>
+    </div>
+
+    <div className="h-1.5 bg-white/10 rounded-full overflow-hidden">
+      <div className="h-full w-[88%] rounded-full bg-gradient-to-r from-violet-400 to-fuchsia-400" />
+    </div>
+  </div>
+
+</div>
 
       <div
         className="
@@ -337,7 +334,7 @@ export default function Hero() {
       >
         <span>AI</span>
         <span>92%</span>
-      </div>
+      
 
     </div>
 
