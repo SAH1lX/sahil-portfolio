@@ -218,103 +218,121 @@ export default function Hero() {
       </h1>
 
     </div>
-
-    {/* RIGHT SIDE CARD */}
-    <div
+{/* RIGHT SIDE CARD */}
+<div
   className="
     flex
     justify-center
-    -mt-8
+    mt-4
   "
 >
+
   <div className="relative">
 
-  </div>
-  
+    {/* BACK CARD 1 */}
+    <div
+      className="
+        absolute
+        -top-4
+        -left-4
+        w-[90px]
+        h-[90px]
+        rounded-[20px]
+        bg-white/5
+        border
+        border-white/10
+        rotate-[-8deg]
+      "
+    />
 
-      <div
-  className="
-    relative
-    w-[150px]
-          rounded-[24px]
-          border
-          border-white/10
-          bg-white/5
-          backdrop-blur-xl
-          p-4
-          shadow-[0px_0px_40px_rgba(139,92,246,0.25)]
+    {/* BACK CARD 2 */}
+    <div
+      className="
+        absolute
+        bottom-[-10px]
+        right-[-10px]
+        w-[90px]
+        h-[90px]
+        rounded-[20px]
+        bg-white/5
+        border
+        border-white/10
+        rotate-[8deg]
+      "
+    />
+
+    {/* MAIN CARD */}
+    <div
+      className="
+        relative
+        w-[150px]
+        rounded-[24px]
+        border
+        border-white/10
+        bg-white/5
+        backdrop-blur-xl
+        p-4
+        shadow-[0px_0px_40px_rgba(139,92,246,0.25)]
+      "
+    >
+
+      <p className="text-[10px] text-white/60 mb-4">
+        AI SYSTEMS
+      </p>
+
+      <h3
+        className="
+          text-lg
+          font-bold
+          leading-tight
+          mb-6
         "
       >
+        Building intelligent solutions for the future.
+      </h3>
 
-        <p className="text-[10px] text-white/60 mb-4">
-          AI SYSTEMS
-        </p>
-
-        <h3
-          className="
-            text-xl
-            font-bold
-            leading-tight
-            mb-6
-          "
-        >
-          Building intelligent solutions for the future.
-        </h3>
-
+      <div
+        className="
+          h-2
+          rounded-full
+          bg-white/10
+          overflow-hidden
+        "
+      >
         <div
           className="
-            h-2
+            h-full
+            w-[92%]
             rounded-full
-            bg-white/10
-            overflow-hidden
+            bg-gradient-to-r
+            from-violet-400
+            to-fuchsia-400
           "
-        >
-          <div
-            className="
-              h-full
-              w-[92%]
-              rounded-full
-              bg-gradient-to-r
-              from-violet-400
-              to-fuchsia-400
-            "
-          />
-          <div
-  className="
-    absolute
-    -top-4
-    -left-4
-    w-[90px]
-    h-[90px]
-    rounded-[20px]
-    bg-white/5
-    border
-    border-white/10
-    rotate-[-8deg]
-  "
-/>
+        />
+      </div>
 
-<div
-  className="
-    absolute
-    bottom-[-10px]
-    right-[-10px]
-    w-[120px]
-    h-[120px]
-    rounded-[20px]
-    bg-white/5
-    border
-    border-white/10
-    rotate-[8deg]
-  "
-/>
-        </div>
-
+      <div
+        className="
+          flex
+          justify-between
+          mt-3
+          text-[10px]
+          text-white/60
+        "
+      >
+        <span>AI</span>
+        <span>92%</span>
       </div>
 
     </div>
 
   </div>
+
+</div>
+</div>
+     
+
+    
 
   {/* DESCRIPTION */}
   <p
