@@ -281,7 +281,7 @@ z-10
   ✦
 </div>
 
-
+{/* MAIN CARD */}
    <p
   className="
     text-[10px]
@@ -302,7 +302,7 @@ z-10
     mb-5
   "
 >
-  <span className="text-2xl">⚡</span>
+ 
 
   <div
     className="
