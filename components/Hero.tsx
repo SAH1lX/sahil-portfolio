@@ -136,6 +136,7 @@ export default function Hero() {
     "
   />
 
+
   <div
     className="
       absolute
@@ -230,37 +231,51 @@ export default function Hero() {
   <div className="relative">
 
     {/* BACK CARD 1 */}
-    <div
-      className="
-        absolute
-        -top-4
-        -left-4
-        w-[90px]
-        h-[90px]
-        rounded-[20px]
-        bg-white/5
-        border
-        border-white/10
-        rotate-[-8deg]
-      "
-    />
+   <div
+  className="
+    absolute
+    -top-4
+    -left-4
+    w-[90px]
+    h-[90px]
+    rounded-[20px]
+    bg-white/5
+    border
+    border-white/10
+    rotate-[-8deg]
 
-    {/* BACK CARD 2 */}
-    <div
-      className="
-        absolute
-        bottom-[-10px]
-        right-[-10px]
-        w-[90px]
-        h-[90px]
-        rounded-[20px]
-        bg-white/5
-        border
-        border-white/10
-        rotate-[8deg]
-      "
-    />
+    flex
+    items-center
+    justify-center
 
+    text-2xl
+  "
+>
+  ⚡
+</div>
+ {/* BACK CARD 2 */}
+  <div
+  className="
+    absolute
+    bottom-[-10px]
+    right-[-10px]
+    w-[90px]
+    h-[90px]
+    rounded-[20px]
+    bg-white/5
+    border
+    border-white/10
+    rotate-[8deg]
+
+    flex
+    items-center
+    justify-center
+
+    text-2xl
+  "
+>
+  ✦
+</div>
     {/* MAIN CARD */}
     <div
       className="
